@@ -28,7 +28,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import cedesDonBosco from "./company/cedesDonBosco.png";
-import construID from "./company/ConstruID.png";
+import construID from "./company/construID.png";
 import cenfotec from "./company/cenfotec.png";
 import cecropia from "./company/cecropia.png";
 

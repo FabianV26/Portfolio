@@ -29,11 +29,11 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import cedesDonBosco from "./company/cedesDonBosco.png";
 import construID from "./company/construID.png";
-import cenfotec from "./company/cenfotec.jpg";
+import cenfotec from "./company/cenfotec.png";
 import cecropia from "./company/cecropia.png";
 
 
-import ecographene from "./projects/otium.png";
+import ecographene from "./projects/ecographene.JPG";
 import macdesign from "./projects/macdesign.jpg";
 import carcheck from "./projects/carcheck.jpg";
 import bv from "./projects/bv.jpg";

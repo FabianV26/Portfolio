@@ -33,7 +33,7 @@ import cenfotec from "./company/cenfotec.jpg";
 import cecropia from "./company/cecropia.png";
 
 
-import ecographene from "./projects/ecographene.jpg";
+import ecographene from "./projects/otium.png";
 import macdesign from "./projects/macdesign.jpg";
 import carcheck from "./projects/carcheck.jpg";
 import bv from "./projects/bv.jpg";

@@ -1,0 +1,5 @@
+# _headers
+
+# Configuración para el tipo MIME de archivos JavaScript
+*.js
+  Content-Type: application/javascript

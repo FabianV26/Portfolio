@@ -49,8 +49,8 @@ import {
       title: "Work",
     },
     {
-      id: "contact",
-      title: "Contact",
+      id: "projects",
+      title: "Projects",
     },
   ];
   
@@ -60,7 +60,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -350,9 +350,14 @@ import {
             name: "css",
             color: "blue-text-gradient",
           },
+          {
+            name: "firebase",
+            color: "orange-text-gradient",
+          },
         ],
       image: ersconstruid,
-      source_code_link: "https://github.com/",
+      link: "https://www.behance.net/gallery/176852941/ERS-ConstruID",
+      link_icon: behance
     },
     {
       name: "ConstruID",
@@ -373,7 +378,8 @@ import {
           },
         ],
       image: construid,
-      source_code_link: "https://github.com/",
+      link: "https://www.behance.net/gallery/176851429/ConstruID",
+      link_icon: behance
     },
     {
       name: "Marcapais",
@@ -414,6 +420,10 @@ import {
             name: "css",
             color: "blue-text-gradient",
           },
+          {
+            name: "nodejs",
+            color: "pink-text-gradient",
+          },
         ],
       image: scholly,
       link: "https://www.behance.net/gallery/105477443/SCHOLLY",
@@ -435,6 +445,10 @@ import {
           {
             name: "css",
             color: "blue-text-gradient",
+          },
+          {
+            name: "nodejs",
+            color: "pink-text-gradient",
           },
         ],
       image: otium,
@@ -479,6 +493,10 @@ import {
           {
             name: "css",
             color: "blue-text-gradient",
+          },
+          {
+            name: "nodejs",
+            color: "pink-text-gradient",
           },
         ],
       image: mrkreuzung,

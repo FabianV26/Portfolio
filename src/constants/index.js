@@ -215,21 +215,21 @@ import {
     {
       name: "Ecographene",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
+        "Eco Graphene which is a company dedicated to the production of graphene based on recycling products such as PET.",
+        tags: [
+          {
+            name: "js",
+            color: "yellow-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+        ],
       image: ecographene, 
       link: "https://github.com/FabianV26/Ecographene",
       another_link: "https://fabianv26.github.io/Ecographene/",
@@ -239,21 +239,21 @@ import {
     {
       name: "Mac Design",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
+        "Mac Design is a company dedicated to brand design in order to translate art into a marketing proposal.",
+        tags: [
+          {
+            name: "js",
+            color: "yellow-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+        ],
       image: macdesign,
       link: "https://github.com/FabianV26/MacDesign",
       another_link: "https://fabianv26.github.io/MacDesign/",
@@ -263,21 +263,21 @@ import {
     {
       name: "Car Check",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+        "Project that looks for interactive ways to learn the concepts that the Driver's Manual contains, with the aim of preparing for the theoretical driving test and even the practical one.",
+        tags: [
+          {
+            name: "js",
+            color: "yellow-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+        ],
       image: carcheck,
       link: "https://github.com/FabianV26/Car-Check",
       another_link: "https://fabianv26.github.io/Car-Check/",
@@ -288,21 +288,21 @@ import {
     {
       name: "BV",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+        "BV is an entity dedicated to advising on different branches of law.",
+        tags: [
+          {
+            name: "js",
+            color: "yellow-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+        ],
       image: bv,
       link: "https://github.com/FabianV26/BV",
       another_link: "https://fabianv26.github.io/BV/",
@@ -312,19 +312,19 @@ import {
     {
       name: "Sporting FutSal",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Sporting Futsal es un equipo profesional de Futsal aplicado en el crecimiento personal como futbolista de nuestros jugadores.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "js",
+          color: "yellow-text-gradient",
         },
         {
-          name: "supabase",
+          name: "html",
           color: "green-text-gradient",
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       image: sporting,
@@ -336,63 +336,63 @@ import {
     {
       name: "ERS ConstruID",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+        "ERS system for the registration and manipulation of various internal processes for the company ConstruID",
+        tags: [
+          {
+            name: "js",
+            color: "yellow-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+        ],
       image: ersconstruid,
       source_code_link: "https://github.com/",
     },
     {
       name: "ConstruID",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+        "Company dedicated to the construction, remodeling and repair of homes.",
+        tags: [
+          {
+            name: "js",
+            color: "yellow-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+        ],
       image: construid,
       source_code_link: "https://github.com/",
     },
     {
       name: "Marcapais",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+        "Marcapais is a consulting company that empowers Costa Rican and foreign companies to improve processes, systems and execute successful projects..",
+        tags: [
+          {
+            name: "js",
+            color: "yellow-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+        ],
       image: marcapais,
       link: "https://www.behance.net/gallery/126652023/MarcapaisCR",
       link_icon: behance
@@ -400,21 +400,21 @@ import {
     {
       name: "Scholly",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+        "It is a scholarship application system focused on streamlining data collection by those in charge of this process through online forms, which store this data in their offices.",
+        tags: [
+          {
+            name: "js",
+            color: "yellow-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+        ],
       image: scholly,
       link: "https://www.behance.net/gallery/105477443/SCHOLLY",
       link_icon: behance
@@ -422,21 +422,21 @@ import {
     {
       name: "Otium",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+        " OTIUM is an interface that allows college students to request a lunch in advance at any of the different businesses with the added value that each time the student is at the time of payment the system give you the option to donate the extra change to this same relief fund",
+        tags: [
+          {
+            name: "js",
+            color: "yellow-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+        ],
       image: otium,
       link: "https://www.behance.net/gallery/105477885/OTIUM",
       link_icon: behance
@@ -444,21 +444,21 @@ import {
     {
       name: "Vernun",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+        "Vernun identifies itself as a project that seeks to promote altruistic projects for low-income people, launching two first projects in the area of ​​organizing scholarships and donations for students.",
+        tags: [
+          {
+            name: "js",
+            color: "yellow-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+        ],
       image: vernun,
       link: "https://www.behance.net/gallery/105476819/VERNUN",
       link_icon: behance
@@ -466,21 +466,21 @@ import {
     {
       name: "Mr Kreuzung",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+        "Mr.Kreuzung is based on an application and website with the aim of education in advance and constantly during driving to help drivers and aspiring drivers to find guidance towards optimal driving and an overview on the road more suitable.",
+        tags: [
+          {
+            name: "js",
+            color: "yellow-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+        ],
       image: mrkreuzung,
       link: "https://www.behance.net/gallery/103388785/MRKREUZUNG",
       link_icon: behance

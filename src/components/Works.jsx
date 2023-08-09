@@ -19,8 +19,9 @@ const ProjectCard = ({
   another_link,
   another_link_icon
 }) => {
-  return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+  return ( 
+    <motion.div variants={isMobile ? " " :fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,

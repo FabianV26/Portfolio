@@ -56,19 +56,21 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-const Experience = () => {
+const Experience = ({ isMobile }) => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
-      </motion.div>
+      {!isMobile && ( // Render textVariant animation only if not mobile
+        <motion.div variants={!isMobile ? textVariant() : {}}>
+          <p className={`${styles.sectionSubText} text-center`}>
+            What I have done so far
+          </p>
+          <h2 className={`${styles.sectionHeadText} text-center`}>
+            Work Experience.
+          </h2>
+        </motion.div>
+      )}
 
-      <div className='mt-20 flex flex-col'>
+      <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
@@ -81,5 +83,6 @@ const Experience = () => {
     </>
   );
 };
+
 
 export default SectionWrapper(Experience, "work");

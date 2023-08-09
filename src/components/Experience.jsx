@@ -56,10 +56,10 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-const Experience = ({ isMobile }) => {
+const Experience = () => {
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
   return (
     <>
-      {!isMobile && ( // Render textVariant animation only if not mobile
         <motion.div variants={!isMobile ? textVariant() : {}}>
           <p className={`${styles.sectionSubText} text-center`}>
             What I have done so far
@@ -68,7 +68,7 @@ const Experience = ({ isMobile }) => {
             Work Experience.
           </h2>
         </motion.div>
-      )}
+
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

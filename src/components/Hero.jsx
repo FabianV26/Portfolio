@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
   return (
     <section className={`relative w-full h-screen mx-auto` /*Fits the background*/}>
        <div className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`} /*Space where the her text is placed*/>
@@ -20,7 +21,7 @@ const Hero = () => {
           </p>
         </div>
        </div>
-      
+       {!isMobile && <ComputersCanvas />}
     </section>         
   )
 }

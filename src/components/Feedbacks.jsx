@@ -18,7 +18,7 @@ const Feedbacks = () => {
         background = "#1d1836"
         color= "#fff"
         ref={containerRef}
-        className="`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`"
+        className="`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`-"
         style={{ width: "80vw", height: "80vh" }}
       >
         <motion.div

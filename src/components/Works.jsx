@@ -84,11 +84,15 @@ const ProjectCard = ({
   );
 };
 
-const Works  = ({ isMobile }) => {
+const Works  = () => {
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
   return (
     <>
-     
+      <motion.div variants={isMobile ? " " : textVariant()}>
+        <p className={`${styles.sectionSubText} `}>My work</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+      </motion.div>
       
       <div className='w-full flex'>
         <motion.p

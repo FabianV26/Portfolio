@@ -36,7 +36,9 @@ import {
     tripguide,
     threejs,
     behance,
-    github
+    github,
+    firebase,
+    blender
   } from "../assets";
   
   export const navLinks = [
@@ -99,8 +101,8 @@ import {
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "firebase",
+      icon: firebase,
     },
     {
       name: "Node JS",
@@ -123,8 +125,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "blender",
+      icon: blender,
     },
   ];
   

@@ -22,6 +22,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import firebase from "./tech/firebase.png";
+import blender from "./tech/blender.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -96,4 +98,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  firebase,
+  blender
 };

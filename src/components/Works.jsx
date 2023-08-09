@@ -84,36 +84,11 @@ const ProjectCard = ({
   );
 };
 
-const Works = () => {
-  const [isMobile, setIsMobile] = useState(false);
+const Works  = ({ isMobile }) => {
 
-  useEffect(() => {
-    // Define a function to update the `isMobile` state based on the screen width
-    const updateIsMobile = () => {
-      setIsMobile(window.innerWidth <= 500); // Adjust the width value according to your mobile breakpoint
-    };
-
-    // Initial check for mobile on component mount
-    updateIsMobile();
-
-    // Add a listener for changes to the screen size
-    const handleResize = () => {
-      updateIsMobile();
-    };
-    window.addEventListener('resize', handleResize);
-
-    // Remove the listener when the component is unmounted
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-  console.log(isMobile)
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </motion.div>
+     
       
       <div className='w-full flex'>
         <motion.p

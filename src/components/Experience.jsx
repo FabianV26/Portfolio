@@ -60,7 +60,7 @@ const Experience = ({ isMobile }) => {
   return (
     <>
       {!isMobile && ( // Render textVariant animation only if not mobile
-        <motion.div variants={!isMobile ? textVariant() : {}}>
+        <motion.div variants={{}}>
           <p className={`${styles.sectionSubText} text-center`}>
             What I have done so far
           </p>

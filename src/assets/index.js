@@ -58,8 +58,7 @@ import ccna1 from "./certificates/ccna1.png";
 import ccna2 from "./certificates/ccna2.png";
 import ccna3 from "./certificates/ccna3.png";
 import ccna4 from "./certificates/ccna4.png";
-import middleTechnician from "./certificates/middleTechnician.png";
-
+import middleTechnician from './certificates/middleTechnician.png';
 
 export {
   logo,

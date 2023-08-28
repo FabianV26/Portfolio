@@ -45,7 +45,8 @@ import {
     ccna1,
     ccna2,
     ccna3,
-    ccna4
+    ccna4,
+    middleTechnician
   } from "../assets";
   
   export const navLinks = [
@@ -519,6 +520,12 @@ import {
   ];
 
   const certificates = [
+    {
+      title: "Mid-level technician in Computer Software Development",
+      institution: " Don Bosco Technical High School",
+      description: "",
+      image: middleTechnician
+    },
     {
       title: "Modern JavaScript: A Guide to Mastering the Language",
       institution: "Udemy",

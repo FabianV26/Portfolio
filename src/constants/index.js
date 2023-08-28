@@ -38,7 +38,14 @@ import {
     behance,
     github,
     firebase,
-    blender
+    blender,
+    jsModerno,
+    webAssistant,
+    webAdministrator,
+    ccna1,
+    ccna2,
+    ccna3,
+    ccna4
   } from "../assets";
   
   export const navLinks = [
@@ -53,6 +60,10 @@ import {
     {
       id: "projects",
       title: "Projects",
+    },
+    {
+      id: "certificates",
+      title: "Certificates",
     },
   ];
   
@@ -311,7 +322,7 @@ import {
       link_icon: github,
       another_link_icon: webicon
     },
-    {
+    { 
       name: "Sporting FutSal",
       description:
         "Sporting Futsal es un equipo profesional de Futsal aplicado en el crecimiento personal como futbolista de nuestros jugadores.",
@@ -506,5 +517,50 @@ import {
       link_icon: behance
     },
   ];
+
+  const certificates = [
+    {
+      title: "Modern JavaScript: A Guide to Mastering the Language",
+      institution: "Udemy",
+      description: "",
+      image: jsModerno
+    },
+    {
+      title: "Web Assistant",
+      institution: "Carlos Slim Foundation",
+      description: "",
+      image: webAssistant
+    },
+    {
+      title: "Web Administrator",
+      institution: "Carlos Slim Foundation",
+      description: "",
+      image: webAdministrator
+    },
+    {
+      title: "CCNA R&S: Introduction to Networks",
+      institution: "Cisco Networking Academy",
+      description: "",
+      image: ccna1
+    },
+    {
+      title: "CCNA R&S: Scaling Networks",
+      institution: "Cisco Networking Academy",
+      description: "",
+      image: ccna2
+    },
+    {
+      title: "CCNA R&S: Routing and Switching",
+      institution: "Cisco Networking Academy",
+      description: "",
+      image: ccna3
+    },
+    {
+      title: "CCNA R&S: Connecting Networks",
+      institution: "Cisco Networking Academy",
+      description: "",
+      image: ccna4
+    },
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, certificates};

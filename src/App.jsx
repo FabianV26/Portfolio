@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components';
+import {About, Contact, Experience, Certificates, Hero, Navbar, Tech, Works, StarsCanvas} from './components';
 
 const App = () => {
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
@@ -17,7 +17,7 @@ const App = () => {
       </div>
       {!isMobile && <Tech />} 
       <Works isMobile={isMobile}/>
-      
+      <Certificates/>
     </div>
     </BrowserRouter>
   )
